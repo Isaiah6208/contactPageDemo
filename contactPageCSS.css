@@ -1,0 +1,46 @@
+
+  #nav1
+  {  
+      background-color:rgb(0, 0, 0);  /*whichever you want*/
+      opacity: 0.8;           /*0.5 determines transparency value*/ 
+      filter:(opacity=50);       
+  }
+  img.exiaLogo
+  {
+    width: 70px;
+    height: 50px;
+  }
+  body
+  {
+    background-color: #313131;
+    background-image: url("https://hdqwalls.com/download/gundam-versus-2017-4k-hz-2560x1440.jpg");
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  div.preSpace
+  {
+      padding-bottom: 280px;
+  }
+ div.linkedInCard
+ {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 30%;
+ }
+ div.GitHubCard
+ {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 25%;
+ }
+  /* Bootstrap CSS */
+  ul.navbar-nav
+  {
+    font-size: 30px;
+  }
